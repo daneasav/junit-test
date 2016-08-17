@@ -14,4 +14,9 @@ public class Tests {
     assertEquals("10 x 0 must be 0", 0, 10 * 0);
   }
 
+  @Test
+  public void addZeroToAnIntegerWouldYieldTheSameResult() {
+    assertEquals("10 + 0 must be 10", 10, 10 + 0);
+  }
+
 }
